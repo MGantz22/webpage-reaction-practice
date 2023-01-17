@@ -12,6 +12,15 @@ window.onload = function(event) {
   p.append("text");
   document.querySelector("body").append(p);
 
+  let img = document.createElement("img");
+  img.src= "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/202984001/900" ;
+  document.querySelector("body").append(img);
 
+  img.setAttribute("alt", "bird");
+  img.setAttribute("style", "width:50%");
+
+  let h1second = document.createElement("h1");
+  h1second.append("Facts about the Multicolored Tanager");
+  document.querySelector("body").append(h1second);
 }
 
